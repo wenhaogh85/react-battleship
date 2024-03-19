@@ -1,0 +1,23 @@
+.model {
+  display: flex;
+}
+
+.model div {
+  background-color: var(--grey);
+  width: 27px;
+  height: 27px;
+  border: 1px solid var(--white);
+  border-radius: 3px;
+}
+
+.horizontal {
+  flex-direction: row;
+}
+
+.vertical {
+  flex-direction: column;
+}
+
+.unit {
+  background: url("../../icons/grey-circle.svg") center center no-repeat;
+}

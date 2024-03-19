@@ -1,0 +1,62 @@
+.board {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.columnLabel h3,
+.rowLabel h3 {
+  color: var(--dark-grey);
+  font-size: 15px;
+  width: 27px;
+  height: 27px;
+}
+
+.columnLabel h3 {
+  text-transform: uppercase;
+}
+
+.columnLabel {
+  width: 315px;
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  text-align: center;
+}
+
+.row {
+  display: flex;
+}
+
+.rowLabel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 2px;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.winner {
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+}

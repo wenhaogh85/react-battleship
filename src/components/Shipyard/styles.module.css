@@ -1,0 +1,33 @@
+.shipyard {
+  padding: 0 5px;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.shipyard h3 {
+  font-size: 12px;
+  color: var(--darker-grey);
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(-180deg);
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.shipyard p {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.fleet {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-left: 20px;
+}
+
+.sunk {
+  text-decoration: line-through;
+  color: var(--red);
+}

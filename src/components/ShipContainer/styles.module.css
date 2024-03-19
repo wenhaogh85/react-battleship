@@ -1,0 +1,31 @@
+.shipContainer {
+  margin-bottom: 15px;
+}
+
+.shipContainer:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.wrapper {
+  display: flex;
+}
+
+.wrapper h3 {
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.wrapper button {
+  display: block;
+  background-color: transparent;
+  border: none;
+}
+
+.wrapper button:hover {
+  transform: scale(1.1);
+}
+
+.highlight {
+  color: var(--violet);
+}

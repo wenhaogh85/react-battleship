@@ -1,0 +1,40 @@
+.tile {
+  width: 27px;
+  height: 27px;
+  border-radius: 3px;
+}
+
+.placing:hover {
+  cursor: pointer;
+}
+
+.empty {
+  background-color: var(--sea);
+}
+
+.invalid {
+  background: url("../../icons/red-circle.svg") center center no-repeat,
+    var(--light-red);
+}
+
+.awaiting,
+.ship {
+  background: url("../../icons/grey-circle.svg") center center no-repeat,
+    var(--grey);
+}
+
+.hit {
+  background: url("../../icons/red-circle.svg") center center no-repeat,
+    var(--grey);
+}
+
+.miss {
+  background: url("../../icons/blue-circle.svg") center center no-repeat,
+    var(--sea);
+}
+
+.game:hover {
+  cursor: pointer;
+  background: url("../../icons/crosshairs.svg") center center no-repeat,
+    var(--sea);
+}

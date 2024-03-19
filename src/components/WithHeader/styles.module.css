@@ -1,0 +1,20 @@
+.layout {
+  width: 750px;
+  margin: auto;
+}
+
+.small {
+  width: 550px;
+}
+
+.large {
+  width: 700px;
+}
+
+h1 {
+  font-size: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 10px 0;
+  letter-spacing: 1px;
+}

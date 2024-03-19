@@ -1,0 +1,60 @@
+/* || CSS global themes */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+/* || CSS properties */
+:root {
+  --light-red: #f5729d;
+  --red: #e7091e;
+  --maroon: #ff0056;
+  --light-grey: #eeeff0;
+  --dark-grey: #9197a4;
+  --darker-grey: #696c7d;
+  --grey: #d1d1df;
+  --blue: #62c4ff;
+  --sea: #dff4ff;
+  --white: #ffffff;
+  --black: #000000;
+  --green: #00b9a5;
+  --violet: #fb6e89;
+}
+
+/* || base configuration */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--black);
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.debug * {
+  outline: 0.5px solid red !important;
+}
